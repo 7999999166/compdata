@@ -2,12 +2,12 @@
     routes: [
       {
         method: 'GET',
-        path: '/orders/pretransaction',
+        path: '/cash-inward/pretransaction',
         handler: 'custom.pre', 
       },
       {
         method: 'GET',
-        path: '/orders/posttransaction',
+        path: '/cash-inward/posttransaction',
         handler: 'custom.post', 
       },
     ],
